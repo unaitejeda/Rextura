@@ -9,7 +9,6 @@ include_once('config/parameters.php');
         echo 'No me has pasado controller';
     }
 }*/
-
 if(!isset($GET['controller'])){
     //Si no se pasa nada, se mostrara pagina principal de pedidos
     header("Location:".url.'?controller=pedido');
