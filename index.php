@@ -27,7 +27,6 @@ if(!isset($GET['controller'])){
         }else{
             $action = action_default;
         }
-echo 'hola';
         $controller->$action();
     }else{
         header("Location:".url.'?controller=pedido');
